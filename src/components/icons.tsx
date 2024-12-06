@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Icons() {
   return (
-    <div className="flex items-center justify-center gap-4 select-none">
+    <div className="my-6 flex items-center justify-center gap-4 select-none">
       <Image
         alt="javascript"
         src={
