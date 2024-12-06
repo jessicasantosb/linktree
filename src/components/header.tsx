@@ -4,7 +4,7 @@ import { Icons } from "./icons";
 export function Header() {
   return (
     <header className="flex flex-col items-center gap-4">
-      <div className="p-1 border-2 rounded-full border-purple-800">
+      <div className="p-1 border-2 rounded-full border-purple-800 select-none">
         <Image
           alt="avatar"
           src={"/avatar.jpg"}
