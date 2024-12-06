@@ -9,7 +9,7 @@ export function LinkItem({ href, ...props }: Props) {
       href={href}
       {...props}
       target="_blank"
-      className="w-full h-14 p-4 flex items-center gap-4 rounded-lg shadow-lg text-xl tracking-widest bg-white hover:shadow-xl"
+      className="w-full h-14 p-4 flex items-center gap-4 rounded-lg shadow-lg text-xl tracking-widest border border-purple-800 bg-white hover:shadow-purple-300"
     />
   );
 }
