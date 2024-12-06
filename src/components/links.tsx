@@ -16,7 +16,7 @@ export function Links() {
         Whatsapp
       </LinkItem>
       <LinkItem
-        href={`https:/discordapp.com/users/${process.env.NEXT_PUBLIC_DISCORD_USER}`}
+        href={`https://discordapp.com/users/${process.env.NEXT_PUBLIC_DISCORD_USER}`}
       >
         <Image
           alt="discord icon"
